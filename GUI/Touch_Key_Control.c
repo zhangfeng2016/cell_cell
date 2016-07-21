@@ -1161,6 +1161,7 @@ void Touch_Key_Set_Alarm(void)
 
 void Touch_Key_Main(void)
 {
+	
     switch(key_buf[2])
     {
     case 0x09:    //fill
